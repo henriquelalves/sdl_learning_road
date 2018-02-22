@@ -8,7 +8,7 @@ CC = g++
 COMPILER_FLAGS = -w
 
 # Libraries linked against
-LINKER_FLAGS = -lSDL2
+LINKER_FLAGS = -lSDL2 -lSDL2_ttf
 
 # Name of executable
 OBJ_NAME = bin/main
